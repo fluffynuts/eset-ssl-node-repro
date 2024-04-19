@@ -5,6 +5,17 @@ A reproduction for the issue where ESET's SSL handling causes issues with node
 processes attempting to communicate over ssl:
 ![Node error]( node-ssl-error.png )
 
+Usage:
+---
+
+from a console:
+```
+npm i
+npm test
+```
+
+if that all works, you're not experiencing the issue (:
+
 How to work around the issue:
 ---
 Open Advanced setup:
